@@ -36,7 +36,15 @@ module.exports = {
       epilogue: ['Epilogue'],
     },
     dropShadow: {
+      "neon-sm": '0px 0px 5px #00FF01',
       neon: '0px 0px 10px #00FF01',
+      "neon-lg": '0px 0px 20px #00FF01',
+    },
+    boxShadow: {
+      "neon-sm": '0px 0px 5px #00FF01',
+      neon: '0px 0px 10px #00FF01',
+      "neon-lg": '0px 0px 20px #00FF01',
+      "neon-inner": 'inset 0px 0px 5px #00FF01',
     },
     extend: {},
   },
