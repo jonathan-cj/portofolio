@@ -5,13 +5,13 @@
     <section>
       <ul class="flex justify-evenly text-primary-200">
         <li class="mr-8">
-          <a href="#">Biography</a>
+          <a href="#biography">Biography</a>
         </li>
         <li class="mr-8">
-          <a href="#">Projects</a>
+          <a href="#project">Projects</a>
         </li>
         <li class="mr-8">
-          <a href="#">Contacts</a>
+          <a href="#contact">Contacts</a>
         </li>
       </ul>
     </section>
