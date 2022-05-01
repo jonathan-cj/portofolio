@@ -4,9 +4,9 @@
 
     <section>
       <ul class="flex justify-evenly text-primary-200">
-        <li class="mr-8">
+        <!-- <li class="mr-8">
           <a href="#biography">Biography</a>
-        </li>
+        </li> -->
         <li class="mr-8">
           <a href="#project">Projects</a>
         </li>

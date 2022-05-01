@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout name="topnavbar">
     <ModuleLanding />
-    <ModuleBiography />
+    <!-- <ModuleBiography /> -->
     <ModuleProject />
     <ModuleContact />
   </NuxtLayout>
