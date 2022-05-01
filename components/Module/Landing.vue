@@ -47,7 +47,8 @@ export default defineComponent({
       var idx = 0;
       
       setInterval(() => {
-        this.role = roles[idx++ % roles.length];
+        this.role = roles[idx];
+        idx = (idx+1) % roles.length
       }, 3000);
     }
   },
