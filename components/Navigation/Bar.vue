@@ -1,5 +1,5 @@
 <template>
-  <nav class="w-full h-16 bg-primary-1000 flex flex-row justify-between items-center fixed top-0 z-50">
+  <nav class="w-full h-16 bg-primary-1000 bg-opacity-50 flex flex-row justify-between items-center fixed top-0 z-50 backdrop-blur">
     <p class="text-secondary-light text-h4 font-bold ml-5">Jonathan</p>
 
     <section>
