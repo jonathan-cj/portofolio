@@ -13,17 +13,16 @@
         </transition>
       </p>
     </article>
-    <button @click="changeText">Test</button>
 
     <figure class="grid grid-flow-row-dense grid-cols-2 grid-rows-2 auto-cols-min">
       <div class="relative h-56 w-52">
-        <LandingIcon class="absolute -bottom-14" :icon='"../assets/images/code"' :bgColor='"primary-600"' :focus="role=='programmer'" />
+        <LandingIcon class="absolute -bottom-14" :icon='"../images/code"' :bgColor='"primary-600"' :focus="role=='programmer'" />
       </div>
       <div class="relative w-48">
-        <LandingIcon class="absolute right-0 top-5" :icon='"../assets/images/student"' :bgColor='"primary-800"' :focus="role=='student'" />
+        <LandingIcon class="absolute right-0 top-5" :icon='"../images/student"' :bgColor='"primary-800"' :focus="role=='student'" />
       </div>
       <div class="relative col-span-2">
-        <LandingIcon class="absolute right-20 bottom-0" :icon='"../assets/images/game"' :bgColor='"primary-500"' :focus="role=='gamer'" />
+        <LandingIcon class="absolute right-20 bottom-0" :icon='"../images/game"' :bgColor='"primary-500"' :focus="role=='gamer'" />
       </div>
     </figure>
   </section>

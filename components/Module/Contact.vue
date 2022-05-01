@@ -29,18 +29,18 @@ export default defineComponent({
           id: id++,
           contact: "jonathan-cj",
           link: "https://www.linkedin.com/in/jonathan-cj-09816521b/",
-          icon: "../assets/images/linkedin.png"
+          icon: "/images/linkedin.png"
         },
         {
           id: id++,
           contact: "jonathan-cj",
           link: "https://github.com/jonathan-cj",
-          icon: "../assets/images/github.png"
+          icon: "/images/github.png"
         },
         {
           id: id++,
           contact: "jonathanjahja2401@gmail.com",
-          icon: "../assets/images/email.png"
+          icon: "/images/email.png"
         },
       ]
     }

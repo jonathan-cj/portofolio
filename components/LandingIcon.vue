@@ -1,6 +1,6 @@
 <template>
   <div :class="className">
-    <img :class="focus ? 'drop-shadow-neon transition-all duration-1000' : 'transition-all duration-1000'" :src="getImage()"/>
+    <img :class="focus ? 'drop-shadow-neon transition-all duration-1000' : 'transition-all duration-1000'" :src="focus ? icon+'-light.png' : icon+'.png'"/>
   </div>
 </template>
 <script lang="ts">
@@ -14,11 +14,6 @@ export default defineComponent({
   },
   setup(props) {
     
-  },
-  methods: {
-    getImage() {
-      return new URL(this.focus ? this.icon+'-light.png' : this.icon+'.png', import.meta.url).href
-    }
   },
   computed:{
     className(){

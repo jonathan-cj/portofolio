@@ -27,19 +27,19 @@ export default defineComponent({
         {
           id: id++, 
           name: "Website Unit Softball",
-          image: "../assets/images/us.png",
+          image: "/images/us.png",
           link: "https://unitsoftballitb.site/"
         },
         {
           id: id++, 
           name: "Website SPARTA 2020",
-          image: "../assets/images/sparta.png",
+          image: "/images/sparta.png",
           link: "https://sparta2020.tech/#/"
         },
         {
           id: id++, 
           name: "Groofit Landing Page",
-          image: "../assets/images/groofit.png",
+          image: "/images/groofit.png",
           link: "https://www.groo.fit/"
         },
         {
